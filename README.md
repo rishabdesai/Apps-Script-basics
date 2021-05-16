@@ -23,3 +23,6 @@
 - creteMenu
 - createAddonMenu
 - Toast
+
+### create-slides-using-sheets
+- use Google sheet data to create multiple Slides 
