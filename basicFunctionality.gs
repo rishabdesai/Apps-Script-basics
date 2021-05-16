@@ -34,7 +34,7 @@ function myFunction() {
   //range.setValue(200);
 
   //var range = sheet_wow.getRange(3,1,1,4);
-  //range.setValues([['2','Atsi','Baroda','200']])
+  //range.setValues([['2','ABC','Baroda','200']])
 
 
   /** get last row column */
