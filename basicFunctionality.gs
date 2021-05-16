@@ -5,7 +5,7 @@ function myFunction() {
   //SpreadsheetApp.create("hello")
 
   /** open spreadsheet */
-  //SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/1WK2SRinHXwz5EYxovBgfHg-n2NpISUAWJyE4-oJhe9k/edit?usp=drive_web&ouid=100786821732930656314');
+  //SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/<<copy-your-sheet-ID-here>>/');
   //SpreadsheetApp.openById(spreadsheetID);
   //SpreadsheetApp.open(DriveApp.getFilesByName('hello').next())
 
@@ -46,7 +46,7 @@ function myFunction() {
   //const lastCol = sheet_wow.getLastColumn();
   //const lastRow = sheet_wow.getLastRow();
 
-  //sheet_wow.getRange(lastRow+1,1,1,lastCol).setValues([['5','Siddhant','New York','300']]);
+  //sheet_wow.getRange(lastRow+1,1,1,lastCol).setValues([['5','sid','New York','300']]);
 
 
   /** get max row column , create filter*/
