@@ -1,6 +1,7 @@
 # Apps-Script-basics
 
-### basicFunctionality.gs
+### basicFunctionality
+
 - Create new spreadsheet
 - open spreadsheet
 - Get and insert spreadsheet
@@ -16,6 +17,7 @@
 - format cells
 
 ### boundedScripts_alerts
+
 - alerts
 - prompts
 - showModelDialog
@@ -25,4 +27,16 @@
 - Toast
 
 ### create-slides-using-sheets
-- use Google sheet data to create multiple Slides 
+
+- use Google sheet data to create multiple Slides
+
+### sendEmail
+
+- create new doc using script
+- send email with attachment of newly created doc.
+
+
+#### Reference files
+
+- https://developers.google.com/apps-script/reference
+- 
