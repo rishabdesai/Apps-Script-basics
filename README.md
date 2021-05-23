@@ -30,13 +30,14 @@
 
 - use Google sheet data to create multiple Slides
 
-### sendEmail
+### GoogleAppScript_CompleteBasics
 
-- create new doc using script
-- send email with attachment of newly created doc.
-
+1. create new document
+2. sened email using newly created document as attachment.
+3. Document body - add new paragraph, change font, change background
+4. Translate document language
+5. Append document.
 
 #### Reference files
 
-- https://developers.google.com/apps-script/reference
-- 
+[web site](https://developers.google.com/apps-script/reference)
