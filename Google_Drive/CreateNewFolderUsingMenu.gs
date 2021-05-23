@@ -91,7 +91,7 @@ function listFolders(){
 */
 
 /*
-//------create new spreadsheet and move to specific folder------
+//------create new blank spreadsheet and move to specific folder------
 function myFunction() {
   //create new spreadsheet 
   var newSSName = 'NewSpreadSheet1';

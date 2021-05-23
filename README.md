@@ -38,6 +38,14 @@
 4. Translate document language
 5. Append document.
 
+### GoogleDrive
+1. Create menu, Accept folder name, create new folder
+2. Create menu, Accept folder name, create new folder, add a text file
+3. Get list of all folders in speadsheet
+4. create new blank spreadsheet and move to specific folder
+
 #### Reference files
 
 [web site](https://developers.google.com/apps-script/reference)
+
+
