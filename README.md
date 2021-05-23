@@ -30,7 +30,7 @@
 
 - use Google sheet data to create multiple Slides
 
-### GoogleAppScript_CompleteBasics
+### Google_Docs
 
 1. create new document
 2. sened email using newly created document as attachment.
@@ -38,7 +38,8 @@
 4. Translate document language
 5. Append document.
 
-### GoogleDrive
+### Google_Drive
+
 1. Create menu, Accept folder name, create new folder
 2. Create menu, Accept folder name, create new folder, add a text file
 3. Get list of all folders in speadsheet
@@ -47,5 +48,3 @@
 #### Reference files
 
 [web site](https://developers.google.com/apps-script/reference)
-
-
