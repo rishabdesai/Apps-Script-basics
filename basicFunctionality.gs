@@ -1,21 +1,45 @@
-function myFunction() {
+  /*
+  //---Create new spreadsheet---
+  function myFunction() {
+  var ss = SpreadsheetApp.create("helloworld123");
+  console.log(ss.getUrl());
+  console.log(ss.getId());
+  }
+ */
+
+  /* 
+  //---------open spreadsheet using URL, ID or name--------
+  function myFunction() {
   const spreadsheetID = '<<copy-your-sheet-ID-here>>';
-
-  /** Create new spreadsheet */
-  //SpreadsheetApp.create("hello")
-
-  /** open spreadsheet */
+  //using URL 
   //SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/<<copy-your-sheet-ID-here>>/');
-  //SpreadsheetApp.openById(spreadsheetID);
+  //using ID 
+  SpreadsheetApp.openById(spreadsheetID);
+  //or using Name
   //SpreadsheetApp.open(DriveApp.getFilesByName('hello').next())
+  }
+  */
 
-  /** Get and insert spreadsheet */
-  //const spreadsheet = SpreadsheetApp.openById(spreadsheetID);
-  //spreadsheet.getSheetByName('Sheet1');
-  //console.log(spreadsheet.getSheets());
+  /* 
+  //---------get name of opened spreadsheet--------
+  function myFunction() {
+  const spreadsheetID = '<<copy-your-sheet-ID-here>>';
+   var ss =SpreadsheetApp.openById(spreadsheetID);
+  console.log(ss.getName());
+  }
+  */
 
-  //spreadsheet.insertSheet();
+
+  /* 
+  // -------insert sheet-------- 
+  function myFunction() {
+  const spreadsheetID = '<<copy-your-sheet-ID-here>>';
+  const spreadsheet = SpreadsheetApp.openById(spreadsheetID);
+  spreadsheet.insertSheet();
   //spreadsheet.insertSheet('wow',0, {template: spreadsheet.getSheetByName('Sheet1') });
+  spreadsheet.insertSheet('wow1');
+  }
+  */
 
   /** Get range and values */
   //const spreadsheet = SpreadsheetApp.openById(spreadsheetID);
@@ -157,4 +181,6 @@ function myFunction() {
 //   sheet_hello.getRange('C1').setFontSize(24);
 //   sheet_hello.getRange('D1').setBorder(false,true, false,true, null, null, 'blue',SpreadsheetApp.BorderStyle.DOTTED);
 
+// starting from first cell (1,1) upto 5 rows and 10 columns, set yellow setBackground
+// sheet_hello.getRange(1,1,5,10).setBackground('yellow');
 }

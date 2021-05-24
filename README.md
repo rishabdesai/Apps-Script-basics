@@ -1,20 +1,5 @@
 # Apps-Script-basics
 
-### basicFunctionality
-
-- Create new spreadsheet
-- open spreadsheet
-- Get and insert spreadsheet
-- Get range and values 
-- setting values automatically in spreadsheet
-- get last row and last column
-- get max row and last column , create filter
-- copying cell, format etc
-- autofill etc
-- clear, delete cells, delete columns, delte rows 
-- sort and filter
-- set formula
-- format cells
 
 ### boundedScripts_alerts
 
@@ -44,6 +29,33 @@
 2. Create menu, Accept folder name, create new folder, add a text file
 3. Get list of all folders in speadsheet
 4. create new blank spreadsheet and move to specific folder
+
+### Google_Sheets
+
+#### basicFunctionality
+
+- Create new spreadsheet
+- open spreadsheet
+- Get name of opened sheet
+- Insert sheet
+- Get range and values 
+- setting values automatically in spreadsheet
+- get last row and last column
+- get max row and last column , create filter
+- copying cell, format etc
+- autofill etc
+- clear, delete cells, delete columns, delte rows 
+- sort and filter
+- set formula
+- format cells
+
+#### SheetsToDocs
+
+- copy table from Sheets to Docs
+
+#### Resize Column to fix the Text Width
+
+- resize column width
 
 #### Reference files
 
