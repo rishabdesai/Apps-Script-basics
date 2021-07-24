@@ -1,6 +1,5 @@
 # Apps-Script-basics
 
-
 ### boundedScripts_alerts
 
 - alerts
