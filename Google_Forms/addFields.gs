@@ -1,5 +1,3 @@
-//bound script
-
 //create a blank Form
 function newForm() {
  const newForm = FormApp.create('new form11');
