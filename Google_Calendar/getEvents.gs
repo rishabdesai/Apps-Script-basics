@@ -32,3 +32,13 @@ function deleteEvent() {
   })
 
 }
+
+
+// get count of events for Today
+function getTodayEvents(){
+  const cal = CalendarApp.getDefaultCalendar();
+  const day = new Date();
+  const event = cal.getEventsForDay(day);
+  Logger.log("Number of events today   :   "+event.length);
+}
+
